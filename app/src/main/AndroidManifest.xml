@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ssv.GuitarShop">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppSalePhone">
+        <activity
+            android:name="com.ssv.GuitarShop.SignUpActivity"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/Theme.AppSalePhone.NoActionBar">
+
+        </activity>
+        <activity
+            android:name="com.ssv.GuitarShop.Home"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.AppSalePhone.NoActionBar" />
+        <activity android:name="com.ssv.GuitarShop.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

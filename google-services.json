@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1022635484307",
+    "project_id": "appguitarshop-69df6",
+    "storage_bucket": "appguitarshop-69df6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022635484307:android:3c05b302afc03648181966",
+        "android_client_info": {
+          "package_name": "com.ssv.GuitarShop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022635484307-lrv8dmvt6fvb1pecd4vsfhjvm3dp0a2m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ssv.GuitarShop",
+            "certificate_hash": "98e535ae792dbfa73c7f319565344b56373f9c33"
+          }
+        },
+        {
+          "client_id": "1022635484307-ng6b54i5jmvs549g58gst7qgovghrepo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKsIN3Zg0MP1Fgd4H74x1e4xH93bFwHMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022635484307-ng6b54i5jmvs549g58gst7qgovghrepo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

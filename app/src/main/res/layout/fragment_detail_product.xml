@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.DetailProductFragment"
+    android:background="@color/white">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_margin="10dp"
+          >
+
+         <ImageView
+             android:id="@+id/img_detail_product_photo"
+             android:layout_width="match_parent"
+             android:layout_height="200dp"
+             android:layout_marginBottom="20dp"
+             android:src="@drawable/martintest"
+             android:background="@color/white">
+         </ImageView>
+
+         <TextView
+             android:id="@+id/tv_detail_product_name"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/img_detail_product_photo"
+             android:text="Đây là tên sp"
+             android:textColor="@color/text_color"
+             android:textSize="27sp">
+         </TextView>
+
+         <TextView
+             android:id="@+id/tv_detail_product_2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:text="Giá :"
+             android:textSize="20sp"
+             android:textColor="@color/red"
+             android:layout_below="@+id/tv_detail_product_name">
+         </TextView>
+
+         <TextView
+             android:id="@+id/tv_detail_product_price"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:layout_below="@+id/tv_detail_product_name"
+             android:layout_toRightOf="@+id/tv_detail_product_2"
+             android:layout_marginLeft="10dp"
+             android:text="200.900.000 Đ"
+             android:textSize="20sp"
+             android:textColor="@color/red">
+         </TextView>
+
+         <Button
+             android:id="@+id/btn_detail_product_buy"
+             android:layout_width="140dp"
+             android:layout_height="40dp"
+             android:layout_below="@id/tv_detail_product_2"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="20dp"
+             android:background="@drawable/custom_button_red"
+             android:backgroundTint="@null"
+             android:text="Mua Ngay"
+             android:textColor="@color/white"
+             android:textSize="15dp"
+             app:backgroundTint="@null">
+         </Button>
+
+         <TextView
+             android:id="@+id/tv_detail_product_3"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/btn_detail_product_buy"
+             android:text="Mô Tả Sản Phẩm"
+             android:textColor="@color/red"
+             android:textSize="23sp">
+         </TextView>
+
+         <TextView
+             android:id="@+id/tv_detail_product_description"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/tv_detail_product_3"
+             android:layout_marginBottom="30dp"
+             android:text="Đây là mô tả sản phẩm"
+             android:textSize="20dp"
+             android:textColor="@color/black">
+         </TextView>
+
+      </RelativeLayout>
+
+   </ScrollView>
+
+
+</FrameLayout>
